@@ -173,7 +173,7 @@ export const caseStudies: CaseStudy[] = [
       {
         src: asset("/images/proof-bats-comments.png"),
         alt: "Comentários entusiasmados em post da Bats Acessórios",
-        caption: "31 comentários e 4,1 mil curtidas em um único post",
+        caption: "Comentários orgânicos de audiência qualificada",
       },
     ],
   },
@@ -203,12 +203,12 @@ export const caseStudies: CaseStudy[] = [
       {
         src: asset("/images/case-sbt-mic.png"),
         alt: "Microfone do Programa do João em mãos, no estúdio da SBT",
-        caption: "No ar com o Programa do João",
+        caption: "Em gravação do Programa do João",
       },
       {
         src: asset("/images/case-sbt-entrevista.png"),
-        alt: "Entrevista ao vivo no estúdio do SBT",
-        caption: "Entrevista viabilizada pela pesquisa e roteiro que desenvolvi",
+        alt: "Entrevista com Léo Lobo no estúdio do SBT",
+        caption: "Entrevista com Léo Lobo, com roteiro escrito por mim",
       },
     ],
     background: asset("/images/case-sbt-bg.png"),

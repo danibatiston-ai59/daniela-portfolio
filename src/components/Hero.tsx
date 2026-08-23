@@ -105,10 +105,6 @@ export default function Hero() {
               className="h-full w-full"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 rounded-2xl bg-ink-soft/95 border border-white/10 px-5 py-4 backdrop-blur shadow-xl">
-            <p className="font-display text-2xl text-gradient">+57%</p>
-            <p className="text-xs text-cream/60 max-w-[9rem]">reservas recorrentes sem tráfego pago</p>
-          </div>
         </motion.div>
       </div>
 
