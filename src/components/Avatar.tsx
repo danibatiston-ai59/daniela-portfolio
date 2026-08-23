@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { asset } from "../lib/asset";
 
 /**
  * Mostra a foto em /public/images/<src> se ela existir; caso contrário,
@@ -30,7 +31,7 @@ export default function Avatar({
 
   return (
     <img
-      src={src}
+      src={asset(src)}
       alt={alt}
       onError={() => setFailed(true)}
       className={`object-cover ${className}`}

@@ -1,6 +1,8 @@
 // Conteúdo do portfólio de Daniela Batiston.
 // Edite os textos aqui — os componentes só consomem esses dados.
 
+import { asset } from "../lib/asset";
+
 export const profile = {
   name: "Daniela Batiston",
   fullName: "Daniela Batiston Noronha",
@@ -138,7 +140,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     proof: [
       {
-        src: "/images/proof-forbes-vh4u.png",
+        src: asset("/images/proof-forbes-vh4u.png"),
         alt: "Artigo da Forbes Business Council sobre o mercado de vacation rentals",
         caption: "Case citado em artigo da Forbes Business Council",
       },
@@ -164,12 +166,12 @@ export const caseStudies: CaseStudy[] = [
     color: "violet",
     proof: [
       {
-        src: "/images/proof-bats-views.png",
+        src: asset("/images/proof-bats-views.png"),
         alt: "Dois vídeos no TikTok com 48,4 mil e 37,8 mil visualizações",
         caption: "48,4 mil e 37,8 mil views — dois vídeos, zero impulsionamento",
       },
       {
-        src: "/images/proof-bats-comments.png",
+        src: asset("/images/proof-bats-comments.png"),
         alt: "Comentários entusiasmados em post da Bats Acessórios",
         caption: "31 comentários e 4,1 mil curtidas em um único post",
       },
@@ -194,22 +196,22 @@ export const caseStudies: CaseStudy[] = [
     color: "gold",
     proof: [
       {
-        src: "/images/case-sbt-estudio.png",
+        src: asset("/images/case-sbt-estudio.png"),
         alt: "Bastidores do estúdio do Programa do João, na SBT",
         caption: "Bastidores do estúdio, em produção ao vivo",
       },
       {
-        src: "/images/case-sbt-mic.png",
+        src: asset("/images/case-sbt-mic.png"),
         alt: "Microfone do Programa do João em mãos, no estúdio da SBT",
         caption: "No ar com o Programa do João",
       },
       {
-        src: "/images/case-sbt-entrevista.png",
+        src: asset("/images/case-sbt-entrevista.png"),
         alt: "Entrevista ao vivo no estúdio do SBT",
         caption: "Entrevista viabilizada pela pesquisa e roteiro que desenvolvi",
       },
     ],
-    background: "/images/case-sbt-bg.png",
+    background: asset("/images/case-sbt-bg.png"),
   },
 ];
 
