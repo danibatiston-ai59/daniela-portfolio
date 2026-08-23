@@ -105,19 +105,6 @@ export default function Hero() {
               className="h-full w-full"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 rounded-2xl bg-ink-soft/95 border border-white/10 px-5 py-4 backdrop-blur shadow-xl">
-            <div className="flex items-center gap-3">
-              <div>
-                <p className="font-display text-xl text-cream/80">R$0</p>
-                <p className="text-[10px] uppercase tracking-wide text-cream/40">em ads</p>
-              </div>
-              <span className="font-display text-xl text-coral">→</span>
-              <div>
-                <p className="font-display text-2xl text-gradient">+57%</p>
-                <p className="text-[10px] uppercase tracking-wide text-cream/40">em reservas</p>
-              </div>
-            </div>
-          </div>
         </motion.div>
       </div>
 
