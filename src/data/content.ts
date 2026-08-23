@@ -207,8 +207,8 @@ export const caseStudies: CaseStudy[] = [
       },
       {
         src: asset("/images/case-sbt-entrevista.png"),
-        alt: "Entrevista com Léo Lobo no estúdio do SBT",
-        caption: "Entrevista com Léo Lobo, com roteiro escrito por mim",
+        alt: "Entrevista com Leão Lobo no estúdio do SBT",
+        caption: "Entrevista com Leão Lobo, com roteiro escrito por mim",
       },
     ],
     background: asset("/images/case-sbt-bg.png"),
