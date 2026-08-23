@@ -1,0 +1,12 @@
+Coloque suas fotos reais aqui, com exatamente estes nomes de arquivo,
+que o site já está preparado para exibi-las automaticamente:
+
+  daniela-hero.jpg    -> foto de destaque na primeira seção (retrato, fundo com boa luz)
+  daniela-about.jpg   -> foto da seção "Sobre mim" (pode ser mais pessoal/bastidores)
+
+Enquanto os arquivos não existirem, o site mostra um monograma "D" em
+gradiente no lugar da foto — então nada quebra, mas fica bem melhor com
+fotos reais suas.
+
+Dica: use fotos verticais (proporção 4:5), em boa resolução (mínimo 1000px
+de largura), sem marca d'água.
