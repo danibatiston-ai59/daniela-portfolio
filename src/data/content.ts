@@ -299,7 +299,7 @@ export const education = [
     period: "fev/2026 — dez/2029 (em curso)",
     details: [
       "Prêmio de Melhor Storytelling do período (jun/2026) — campanha desenvolvida para a marca Pentel.",
-      "Participação no Projeto VigIA — pesquisa da agência LUPA em parceria com alunos da FAAP, mapeando conteúdos gerados com IA e deepfakes nas redes sociais e seu impacto no período eleitoral.",
+      "Participação no Projeto VigIA — pesquisa da agência LUPA, mapeando conteúdos gerados com IA e deepfakes nas redes sociais e seu impacto no período eleitoral.",
     ],
   },
   {
