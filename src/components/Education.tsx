@@ -20,7 +20,16 @@ export default function Education() {
                   <p className="text-xs text-coral font-semibold uppercase tracking-wide mb-1">{e.period}</p>
                   <h3 className="font-display text-xl">{e.degree}</h3>
                   <p className="text-cream/60 text-sm mt-1">{e.school}</p>
-                  {e.detail && <p className="text-cream/70 text-sm mt-3 leading-relaxed">🏆 {e.detail}</p>}
+                  {e.details && e.details.length > 0 && (
+                    <ul className="mt-3 space-y-2">
+                      {e.details.map((d) => (
+                        <li key={d} className="text-cream/70 text-sm leading-relaxed flex gap-2">
+                          <span className="text-coral mt-0.5">✦</span>
+                          <span>{d}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </Reveal>
             ))}

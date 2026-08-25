@@ -50,7 +50,7 @@ function CaseCard({ cs, index }: { cs: CaseStudy; index: number }) {
             <p className="text-xs uppercase tracking-wide text-cream/40 mb-2">Prova</p>
             <div
               className={`grid gap-3 ${
-                cs.proof.length >= 3 ? "grid-cols-3" : cs.proof.length > 1 ? "grid-cols-2" : "grid-cols-1"
+                cs.proof.length === 3 ? "grid-cols-3" : cs.proof.length > 1 ? "grid-cols-2" : "grid-cols-1"
               }`}
             >
               {cs.proof.map((p) => (

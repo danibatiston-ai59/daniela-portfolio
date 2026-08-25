@@ -57,10 +57,11 @@ export const experiences: Experience[] = [
     context:
       "Programa de auditório e entretenimento do SBT, apresentado por João Silva e exibido em rede nacional de TV aberta.",
     bullets: [
-      "Curadoria e busca de referências de conteúdo, transformando tendências em pautas para um programa de entretenimento ao vivo.",
+      "Curadoria e busca de referências de conteúdo, transformando tendências em pautas para o programa.",
       "Pesquisa de influenciadores e elaboração de roteiros de entrevistas para as pautas do programa.",
       "Edição de vídeos em formatos nativos para Instagram, TikTok e YouTube, adaptando linguagem e corte a cada plataforma.",
       "Elaboração de calendários editoriais e acompanhamento de métricas para orientar próximas pautas e formatos.",
+      "Cobertura de eventos e festivais, capturando imagens, vídeos e quadros para as redes sociais do Portal do João Silva.",
     ],
   },
   {
@@ -179,26 +180,28 @@ export const caseStudies: CaseStudy[] = [
   },
   {
     tag: "Entretenimento & TV Aberta",
-    title: "Conteúdo nativo para um programa ao vivo em rede nacional",
+    title: "Conteúdo nativo para um programa de entretenimento em rede nacional",
     client: "Programa do João (SBT) — via Universo Criativo",
     challenge:
-      "Sustentar um fluxo constante de conteúdo relevante para um programa de auditório ao vivo, adaptado à linguagem de cada rede social.",
+      "Sustentar um fluxo constante de conteúdo relevante para um programa de auditório, adaptado à linguagem de cada rede social.",
     approach: [
       "Curadoria de tendências e transformação em pautas para o programa.",
       "Pesquisa de influenciadores e roteiro de entrevistas.",
       "Edição nativa para Instagram, TikTok e YouTube — corte e linguagem específicos por plataforma.",
       "Calendário editorial orientado por análise de métricas.",
+      "Cobertura de eventos e festivais, com captação de imagens, vídeos e quadros para o Portal do João Silva.",
     ],
     results: [
       { value: "3", label: "plataformas com conteúdo nativo simultâneo" },
       { value: "Rede nacional", label: "de TV aberta como vitrine do trabalho" },
+      { value: "3,27 pts", label: "de audiência às 0h26 — vice-liderança em SP (16/08/2026)" },
     ],
     color: "gold",
     proof: [
       {
         src: asset("/images/case-sbt-estudio.png"),
         alt: "Bastidores do estúdio do Programa do João, na SBT",
-        caption: "Bastidores do estúdio, em produção ao vivo",
+        caption: "Bastidores do estúdio",
       },
       {
         src: asset("/images/case-sbt-mic.png"),
@@ -209,6 +212,11 @@ export const caseStudies: CaseStudy[] = [
         src: asset("/images/case-sbt-entrevista.png"),
         alt: "Entrevista com Leão Lobo no estúdio do SBT",
         caption: "Entrevista com Leão Lobo",
+      },
+      {
+        src: asset("/images/proof-sbt-audiencia.png"),
+        alt: "Print de audiência mostrando o Programa do João no SBT com 3,27 pontos às 0h26",
+        caption: "Vice-liderança na madrugada de sábado (16/08/2026) em SP — 3,27 pts às 0h26",
       },
     ],
     background: asset("/images/case-sbt-bg.png"),
@@ -281,7 +289,7 @@ export const softSkills = [
   "Negociação de parcerias e permutas",
   "Comunicação com o público",
   "Organização e cumprimento de prazos",
-  "Rotinas de produção ao vivo",
+  "Rotinas de produção para TV",
 ];
 
 export const education = [
@@ -289,8 +297,10 @@ export const education = [
     degree: "Bacharelado em Publicidade e Propaganda",
     school: "FAAP",
     period: "fev/2026 — dez/2029 (em curso)",
-    detail:
+    details: [
       "Prêmio de Melhor Storytelling do período (jun/2026) — campanha desenvolvida para a marca Pentel.",
+      "Participação no Projeto VigIA — pesquisa da agência LUPA em parceria com alunos da FAAP, mapeando conteúdos gerados com IA e deepfakes nas redes sociais e seu impacto no período eleitoral.",
+    ],
   },
   {
     degree: "Direito",
